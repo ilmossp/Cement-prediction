@@ -1,2 +1,17 @@
 fastapi==0.100.0
 hypercorn==0.14.4
+sklearn
+pandas
+matplotlib
+numpy
+pickle
+pydantic
+datetime
+scipy
+seaborn
+skopt
+xgboost
+lightgbm
+catboost
+tensorflow
+uvicorn
