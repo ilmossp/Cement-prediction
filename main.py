@@ -42,8 +42,15 @@ class Input(BaseModel):
     P11: float
 
 
-#  Create predict endpoint
+
 @app.get("/")
+def read_root():
+    return {"Hello": "Nabil"}
+
+
+
+#  Create predict endpoint
+@app.get("/predict")
 async def root(body: Input):
     global df
     result = process(body)
